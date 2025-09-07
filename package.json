@@ -1,0 +1,21 @@
+{
+  "name": "mern-thinkboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix backend && npm install --prefix frontend/vite-project && npm run build --prefix frontend/vite-project",
+    "start":"npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheks11/take_notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheks11/take_notes/issues"
+  },
+  "homepage": "https://github.com/sheks11/take_notes#readme"
+}
